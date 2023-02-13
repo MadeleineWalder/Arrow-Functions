@@ -5,36 +5,36 @@
 
 // Vanilla JavaScript Function
 
-//function addTwoNumbers(a, b) {
-//return a + b;
-//}
+function addTwoNumbers(a, b) {
+return a + b;
+}
 
-//let sum = addTwoNumbers(2, 2);
-//console.log(sum) 
+let sum = addTwoNumbers(2, 2);
+console.log(sum) 
 
 // Arrow Function With Parameters
 
-//const addTwoNumbers = (a, b) => {
-//    return a + b;
-//    }
-//    
-//    let sum = addTwoNumbers(2, 2);
-//    console.log(sum) 
+const addTwoNumbers = (a, b) => {
+    return a + b;
+    }
+    
+    let sum = addTwoNumbers(2, 2);
+    console.log(sum) 
 
 // Single Line Arrow Function With Parameters
 
-//function addTwoNumbers = (a, b) => a + b;
-//    
-//    let sum = addTwoNumbers(2, 2);
-//    console.log(sum) 
+function addTwoNumbers = (a, b) => a + b;
+    
+    let sum = addTwoNumbers(2, 2);
+    console.log(sum) 
 
 // Implicit Returns
 
-//const saySomething = message => console.log(message);
-//saySomething('Hello there!');
+const saySomething = message => console.log(message);
+saySomething('Hello there!');
 
-//const sayHello = () => console.log('hello');
-//sayHello();
+const sayHello = () => console.log('hello');
+sayHello();
 
 // Returning Multiple Lines
 
